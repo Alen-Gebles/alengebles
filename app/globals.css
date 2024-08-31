@@ -18,7 +18,11 @@
   }
 }
 */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 body {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   min-height: 200vh;
@@ -27,6 +31,7 @@ body {
   background-color: #080808;
   padding-top: 100px;
   overflow-x: hidden;
+  overflow-y: scroll;
   color: #f8f8f8;
 }
 
@@ -34,7 +39,7 @@ body {
   width: 100%;
   max-width: 1000px;
   height: auto;
-  padding-inline: 20px;
+  padding-inline: 20px 36px;
 }
 
 @layer utilities {

@@ -72,3 +72,29 @@
   transition: 500ms;
   font-size: 16px;
 }
+
+@media (max-width: 810px){
+  .headerBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contact{
+    position: relative;
+    background-color: #ff3c00;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding-inline:34px 12px;
+    transition: 500ms;
+    overflow: hidden;
+  }
+  .contact span{
+    position: absolute;
+    transform: translateX(-25px) rotate(0deg);
+    top: 6px;
+    transition: 500ms;
+    font-size: 16px;
+  }
+}
