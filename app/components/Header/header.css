@@ -1,9 +1,9 @@
 .header-container{
   position: relative;
   width: 700px;
-  height: 170px;
+  height: 150px;
   background-color: var(--card-bg);
-  padding: 20px;
+  padding: 15px;
   border: 2px solid rgb(13, 13, 13);
   border-radius: 4px;
 }
@@ -31,8 +31,9 @@
 }
 .introduction{
   font-weight: 200;
-  font-size: 15px;
+  font-size: 17px;
   max-width: 85%;
+  margin: 0;
 }
 .headerBanner{
   display: flex;
