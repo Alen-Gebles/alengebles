@@ -31,9 +31,15 @@
 }
 .introduction{
   font-weight: 200;
-  font-size: 17px;
+  font-size: 18px;
   max-width: 85%;
   margin: 0;
+}
+.introduction p{
+  margin: 0;
+}
+.introduction p:nth-child(1){
+  margin-bottom: 10px;
 }
 .headerBanner{
   display: flex;

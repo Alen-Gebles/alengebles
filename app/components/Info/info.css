@@ -21,18 +21,23 @@
   gap: 5px;
 }
 .link{
-  padding-left: 20px;
+  padding-left: 25px;
   position: relative;
+  transition: 50ms;
+  font-size: 18px;
+}
+.link:hover::after{
+  transform: translate(5px,-50%);
 }
 .link::after{
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%);
   content: "";
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background-image: url('/arrow.svg');
   background-size: contain;
   background-repeat: no-repeat;
